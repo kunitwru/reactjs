@@ -1,0 +1,21 @@
+
+.list-note {
+    border: 1px solid #cccccc;
+    width: 500px;
+    margin: auto;
+    padding: 20px 10px;
+}
+.div-note {
+    padding: 5px;
+    border: 1px solid green;
+    border-radius: 3px;
+    margin: 3px auto;
+    cursor: pointer;
+}
+.div-note:hover {
+    background: green;
+    color: white;
+}
+input[type="text"] {
+    width: 90%;
+}
