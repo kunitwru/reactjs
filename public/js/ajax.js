@@ -131,7 +131,14 @@ class InputTag extends React.Component {
       )
     }
 }
-
+var obj = {
+    name : "PhamSinh",
+    age : 23
+}
+var obj2 = {...obj};
+obj.age = 1000
+console.log('Obj : ', obj.age)
+console.log('Obj 2 : ', obj2.age)
 ReactDOM.render(
     <div className="list-note">
         <List />
